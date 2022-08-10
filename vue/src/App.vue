@@ -4,15 +4,18 @@
 
 
 import HelloWorld from './components/HelloWorld.vue'
-import HelloWorld from './components/HelloWorld.vue'
+
 export default{
     components: { HelloWorld }
 }
 </script>
 
 <template>
+<div id="app">
+
  
-<HelloWorld></HelloWorld>
+ <router-view></router-view>
+</div>
 </template>
 
 <style scoped>
